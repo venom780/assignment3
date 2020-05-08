@@ -1,0 +1,115 @@
+
+.navbar .container-fluid{
+    background-color:rgb(53, 101, 189) ;   
+}
+.navbar .container-fluid .navbar-brand{
+    margin: 0;
+    padding: 0;
+    display: flex ;
+}
+.navbar .container-fluid .navbar-brand li{
+    list-style: none;
+    margin: 0 20px;
+}
+.navbar .container-fluid .navbar-brand li .fa{
+    font-size: 30px;
+    line-height: 30px;
+    transition: .6s;
+    color: black;
+
+}
+.navbar .container-fluid .navbar-brand li .fa:hover{
+    background-color:cornflowerblue;
+
+}
+.navbar .container-fluid .navbar-brand li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:cornflowerblue;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+
+}
+.navbar .container-fluid .navbar-brand li a:hover{
+    transform: translate(0,-10px);
+
+}
+.navbar .container-fluid .navbar-header{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-bottom: rgb(53, 101, 189);
+}
+
+.intro{
+    color: rgb(39, 92, 238);
+}
+.duction{
+    color: rgb(12, 126, 12);
+}
+
+.small ul li a{
+    position: relative;
+    display: block;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    text-align: center;   
+    height: 10px; 
+    width: 15px;
+    transition: .6s;
+}
+.small ul{
+    display: flex; 
+}
+.small ul li{
+    list-style: none;
+    margin: 0 13px;
+}
+.small ul li .fa{
+    font-size: 20px;
+}
+.bottom{
+    background-color: rgb(31, 88, 194);
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+.contain{
+    background-color: blue;
+    width: 100%;
+    
+    
+}
+.green{
+    color: greenyellow;
+}
+.number{
+    font-size: 50px;
+    font-weight: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.images{
+   float: right;
+}
+.navbar{
+    background-color: white;
+}
+.navbar .navbar-nav .active{
+    background-color: rgb(53, 101, 189);
+    border-radius: 10px;  
+}
+.navbar .navbar-nav .nav-link:hover{
+    background-color: rgb(53, 101, 189);
+    border-radius: 10px;
+}
+.navbar .navbar-nav .dropdown .dropdown-item:hover{
+    background-color:rgb(53, 101, 189);
+    border-radius: 10px;
+}
+
